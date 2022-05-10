@@ -15,7 +15,7 @@ footer,
 .div2,
 .div3,
 .div4{
-    padding: 20px 100px;
+    padding: 20px 50px;
 }
 header,
 ul,
@@ -80,7 +80,7 @@ button{
     align-items: center;
     padding: 30px 0px;
     text-align: center;
-    font-size: 12px;
+    font-size: 12px; 
     width: 90%;
 }
 .imgWtxt{
@@ -90,4 +90,17 @@ button{
 .imgWtxt img{
     border: solid #3882f6;
     border-radius: 10px;
+}
+.div3{
+    background-color: #e5e7eb;
+    padding: 10% 15%;
+}
+.quote{
+    font-weight: 10;
+    font-size: 36px;
+    font-style: italic;
+}
+.sig{
+    font-weight: bold;
+    text-align: right;
 }
