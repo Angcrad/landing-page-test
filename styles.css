@@ -1,0 +1,37 @@
+*{
+    border: 1px solid lime;
+    padding: 0px;
+    margin: 0px;
+}
+header,
+footer,
+.div1{
+    color: white;
+    background-color: #1f2937;
+}
+header,
+footer,
+.div1,
+.div2,
+.div3,
+.div4{
+    padding: 20px 50px;
+}
+header,
+ul{
+    display: flex;
+}
+header{
+    justify-content: space-between;
+}
+.headerList{
+    list-style-type: none;
+    gap: 20px;
+}
+.headerLogo{
+    font-weight: bold;
+}
+.headerList a{
+    color: white;
+    text-decoration: none;
+}
