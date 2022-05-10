@@ -1,5 +1,5 @@
 *{
-    border: 1px solid lime;
+    border: 1px solid #ff00ff;
     padding: 0px;
     margin: 0px;
 }
@@ -15,10 +15,11 @@ footer,
 .div2,
 .div3,
 .div4{
-    padding: 20px 50px;
+    padding: 20px 100px;
 }
 header,
-ul{
+ul,
+.div1{
     display: flex;
 }
 header{
@@ -32,6 +33,32 @@ header{
     font-weight: bold;
 }
 .headerList a{
-    color: white;
     text-decoration: none;
+}
+.subdiv1-1,
+.subdiv1-2{
+    width: 50%;
+}
+.subdiv1-1 h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 800;
+}
+.subdiv1-1 p,
+.headerList a{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.subdiv1-2{
+    background-color: #6D747D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background-color: #3882f6;
+    color: white;
+    padding: 10px 50px;
+    font-weight: bold;
+    border-radius: 15px;
 }
